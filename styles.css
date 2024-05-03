@@ -385,18 +385,19 @@ main {
 	height: 3rem;
 	bottom: 3rem;
 	border-radius: var(--itemBorderRadius);
-	background-color: #fff;
 	/* color: #fff; */
 	text-align: center;
 	box-shadow: 3px 4px 3px #999;
 	right: 1rem;
 	z-index: 100;
-	background-image: url('assets/img/sosmed/square-whatsapp.svg'); /* Set the background image */
-	background-size: cover; /* Adjust as needed to fit the container */
-	background-position: center; /* Center the background image */
-	background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+	
 }
 
+/* .whatsapp img{
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+} */
 
 
 /* WA end */
