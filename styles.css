@@ -166,14 +166,15 @@ main {
 	margin-top: 1rem;
 	display: inline-block;
 	padding: 0.75rem;
-	color: var(--primaryIconColor);
+	color: var(--primaryBackgroundColor); /* The text color */
 	border: 0.1rem solid var(--primaryIconColor);
 	border-radius: var(--itemBorderRadius);
+	background-color: var(--primaryIconColor); /* The background of button */
 }
 
 .hero .content .cta:hover {
-	color: var(--primaryBackgroundColor);
-	background-color: var(--primaryIconColor);
+	color: var(--primaryIconColor);
+	background-color: var(--primaryBackgroundColor);
 }
 
 .hero .image {
@@ -264,7 +265,9 @@ main {
 .services .specialized-layout {
 	display: grid;
 	padding-top: 7rem;
-	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: 1fr 1fr;
+
 	gap: 1rem;
 }
 
@@ -461,7 +464,7 @@ main {
 	/* Hero */
 	.hero {
 		display: flex;
-		background-image: url('myself.jpg');
+		background-image: url('assets/img/myself.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
